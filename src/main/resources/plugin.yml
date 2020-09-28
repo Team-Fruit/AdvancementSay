@@ -1,0 +1,16 @@
+name: AdvancementSay
+version: ${project.version}
+main: net.teamfruit.advsay.AdvancementSay
+api-version: 1.15
+authors: [Kamesuta]
+
+commands:
+  adv:
+    description: Say as Advancement
+    aliases: [advsay, advancementsay]
+    permission: advsay
+    usage: /adv <player> <item> <message>
+permissions:
+  advsay:
+    description: You can say as Advancement
+    default: op
