@@ -26,7 +26,7 @@ public final class AdvancementSay extends JavaPlugin {
                 .icon(material)
                 .title(title)
                 .description(description)
-                .announce(true)
+                .announce(false)
                 .toast(true)
                 .background("minecraft:textures/blocks/bedrock.png")
                 .build();
