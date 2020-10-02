@@ -10,6 +10,10 @@ commands:
     aliases: [advsay, advancementsay]
     permission: advsay
     usage: /adv <player> <item> <message>
+  advall:
+    description: Say as Advancement to all players, Announce target
+    permission: advsay
+    usage: /advall <player> <item> <message>
 permissions:
   advsay:
     description: You can say as Advancement
